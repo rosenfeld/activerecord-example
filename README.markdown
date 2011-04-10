@@ -13,7 +13,7 @@ After filling the migration:
     rake db:migrate
 
 If you want to experiment in IRB:
-    irb -I . -r bootstrap
+    irb -r ./bootstrap
 
 In IRB:
     User.all # []
